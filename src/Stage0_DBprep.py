@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS Tag_Unique\
 
 if __name__ == "__main__":
 
-	MySQL_DBkey = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_feb15vh','charset':'utf8mb4'}
+	MySQL_DBkey = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 	Stage0_Main(MySQL_DBkey = MySQL_DBkey)
 
