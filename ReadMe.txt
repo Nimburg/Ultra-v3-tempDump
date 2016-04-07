@@ -1,4 +1,4 @@
-for Interview. 
+3rd re-write in Python and MySQL of Project Ultra. 
 
 1. written with Python 2.7
 2. with standard libraries numpy, scipy, matplot, json, pandas
