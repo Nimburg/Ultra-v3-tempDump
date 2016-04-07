@@ -15,9 +15,9 @@ from Stage0_DBprep import Stage0_Main
 
 
 # global variables
-file_name = 'US_tweets_Feb15_PT.txt'
+file_name = '.txt'
 keyword_list = ['trump', 'hillary']
-DB_Stage3 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_stage3_demo','charset':'utf8mb4'}
+DB_Stage3 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 
 ###############################################################################
@@ -56,8 +56,8 @@ class Stage3(luigi.Task):
 ###############################################################################
 class Stage2(luigi.Task):
 
-	db_stage1_key0 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_demo_', 'charset':'utf8mb4'}
-	db_stage2_key0 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_stage2_demo_', 'charset':'utf8mb4'}
+	db_stage1_key0 = {'host':'localhost', 'user':'', 'password':'', 'db':'', 'charset':'utf8mb4'}
+	db_stage2_key0 = {'host':'localhost', 'user':'', 'password':'', 'db':'', 'charset':'utf8mb4'}
 
 	# keyword 
 	stage2_keyword = luigi.Parameter()
@@ -81,7 +81,7 @@ class Stage2(luigi.Task):
 ###############################################################################
 class Stage1(luigi.Task):
 
-	db_stage1_key0 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_demo_','charset':'utf8mb4'}
+	db_stage1_key0 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 	# keyword 
 	stage1_keyword = luigi.Parameter()
@@ -107,7 +107,7 @@ class Stage1(luigi.Task):
 class Stage0(luigi.Task):
 	
 	db_key = luigi.Parameter()
-	db_stage1_key0 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_demo_','charset':'utf8mb4'}
+	db_stage1_key0 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 	def run(self):
 		self.db_stage1_key0['db'] = self.db_stage1_key0['db'] + self.db_key
