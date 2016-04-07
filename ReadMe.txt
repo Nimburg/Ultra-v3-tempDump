@@ -10,7 +10,7 @@ Please Note:
 1. Although luigid code was provided, however, Stage3 was NOT written with this in mind.
 One should adjust the SQL commands of Stage3 for full luigid operation. (will update this part soon.)
 2. One should create necessary data bases beforehand, and update parameters into the code accoordingly. 
-3. Stage4 is the k-means clustering part. Recommending excecuting it independently. Stage4 is more of a check (and viewer) of previous stages' result; rather than any serious attemp of achieving certain conclusions. 
+3. Stage4 is the k-means clustering part. Recommend excecuting it independently. Stage4 is more of a check (and viewer) of previous stages' result; rather than any serious attemp of achieving certain conclusions. 
 
 Please Note: 
 
