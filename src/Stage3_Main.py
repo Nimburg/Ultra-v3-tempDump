@@ -140,11 +140,11 @@ def Stage3_Gross(DB_Stage3):
 
 if __name__ == "__main__":
 
-	DB_Stage1_T = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_feb15v2','charset':'utf8mb4'}
-	DB_Stage1_H = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_feb15vh','charset':'utf8mb4'}
-	DB_Stage2_T = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_stage2_t','charset':'utf8mb4'}
-	DB_Stage2_H = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_stage2_h','charset':'utf8mb4'}
-	DB_Stage3 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_stage3','charset':'utf8mb4'}
+	DB_Stage1_T = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
+	DB_Stage1_H = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
+	DB_Stage2_T = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
+	DB_Stage2_H = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
+	DB_Stage3 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 
 	####################################################################
