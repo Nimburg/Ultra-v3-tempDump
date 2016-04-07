@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
 	file_name = 'US_tweets_Feb15_PT.txt'
 	keyword = 'hillary'
-	MySQL_DBkey = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_feb15vh','charset':'utf8mb4'}
+	MySQL_DBkey = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 	Stage1_Main(file_name = file_name, keyword = keyword, MySQL_DBkey = MySQL_DBkey)
 
