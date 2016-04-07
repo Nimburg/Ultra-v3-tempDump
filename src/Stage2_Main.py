@@ -152,8 +152,8 @@ def Stage2_Gross(MySQL_DBkey1, MySQL_DBkey2):
 
 if __name__ == "__main__":
 
-	MySQL_DBkey1 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_v3_feb15v2','charset':'utf8mb4'}
-	MySQL_DBkey2 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'stage2_test2','charset':'utf8mb4'}
+	MySQL_DBkey1 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
+	MySQL_DBkey2 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 	####################################################################
 	# tagcallhistry talbe transfer threshold at score >= 5
