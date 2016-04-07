@@ -12,4 +12,4 @@ One should adjust the SQL commands of Stage3 for full luigid operation.
 
 Stage4 is the k-means clustering part. Recommending excecuting it independently. 
 
-One should create necessary data bases before hand, and update parameters accoordingly. 
+One should create necessary data bases beforehand, and update parameters into the code accoordingly. 
