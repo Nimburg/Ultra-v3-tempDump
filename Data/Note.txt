@@ -1,0 +1,3 @@
+Please use tweepy API to collect data. 
+
+Recommended test data size should be ~0.5 hour (real time) worth of data. 
