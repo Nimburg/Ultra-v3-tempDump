@@ -18,7 +18,7 @@ def Gross_K_means():
 
 	#######################################################################
 
-	MySQL_DBkey2 = {'host':'localhost', 'user':'sa', 'password':'fanyu01', 'db':'ultra_stage3','charset':'utf8mb4'}
+	MySQL_DBkey2 = {'host':'localhost', 'user':'', 'password':'', 'db':'','charset':'utf8mb4'}
 
 	# command
 	comd_Score_TH = "\
